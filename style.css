@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+Oriya:100,200,300,regular,500,600,700,800,900);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 540px;
+  margin: 9.6rem auto;
+
+  box-shadow: 0 0 3.8rem rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.sign_in_heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 4.8rem;
+}
+.line {
+  flex-basis: 20%;
+  height: 2px;
+  background-color: orange;
+}
+.login_title {
+  font-family: "Noto Sans Oriya", sans-serif;
+  font-size: 2.8rem;
+  letter-spacing: 1px;
+}
+
+.login_container {
+  margin-bottom: 5rem;
+}
+.login_container input {
+  display: block;
+  width: 100%;
+  padding: 1.2rem;
+  outline: none;
+  border: 1px solid rgb(205, 205, 205);
+  margin-bottom: 3.4rem;
+}
+
+.login_container input::placeholder {
+  font-family: inherit;
+  color: rgb(197, 197, 197);
+}
+.signInBtn {
+  color: #fff;
+  background-color: #451932;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #1b0a13;
+  }
+}
+
+.connect_title {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 1.6rem;
+}
+
+.social_links {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8rem;
+  background-image: linear-gradient(to right, #d16ba5, #8aa7ec, #5ffbf1);
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+
+  & .social_link {
+    color: #fff;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: rgb(3, 2, 2);
+    }
+  }
+  & .social_icon,
+  .social_title {
+    font-size: 1.8rem;
+    display: inline-block;
+  }
+}
+
+/* btn */
+.btn {
+  padding: 0 1rem;
+  border-radius: 4px;
+  color: #fff;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+.forget_password {
+  margin-bottom: 2rem;
+}
+.pass_reset_link {
+  background-color: rgba(255, 106, 0, 0.636);
+}
+.new_user_link {
+  background-color: rgba(0, 0, 255, 0.636);
+}
